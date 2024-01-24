@@ -1,0 +1,17 @@
+{
+    "name": "loadtest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/k6": "^0.39.1",
+      "@types/node": "^18.8.2",
+      "typescript": "^4.8.4"
+    },
+    "scripts": {
+      "build": "tsc",
+      "loadtest:item:create": "yarn build && ./k6 run ./scripts/create-item.js"
+      
+    }
+  }
+  

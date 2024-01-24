@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "host": "127.0.0.1",
+      "program": "${workspaceFolder}",
+      "args": [],
+      "showLog": true,
+      "env": {
+        "INTEGRATION": "true"
+      }
+    },
+    {
+      "name": "Go Tests",
+      "type": "go",
+      "env": {
+        "INTEGRATION": "true"
+      },
+      "showLog": true,
+    }
+  ]
+}

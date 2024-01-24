@@ -1,0 +1,19 @@
+---
+server-port: "8080"
+timeout: 5
+log:
+  level: "info"
+  report-caller: false
+postgres:
+  host: localhost
+  username: chayakorn.kaewwong
+  port: 5432
+  password: ""
+  database: experiment
+  tls: false
+jwt-secret: aa88aa
+
+
+
+  
+  
