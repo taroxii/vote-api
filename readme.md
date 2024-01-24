@@ -33,6 +33,27 @@ __Database migrations written in Go. Use as [CLI](#cli-usage) or import as [libr
 
 ```bash
 $ migrate -source db/migrations -database postgres://localhost:5432/database up 
+
+```
+## Start
+### Make sure you database has been migrate step above
+
+```shell
+make run
+# or
+go run main.go
+```
+
+## Unit test
+
+```shell
+make unit-test
+
+# or 
+go test -v ./src/...
+
+# test use case only 
+go test -v ./src/use_case/...
 ```
 
 ### Load test result
